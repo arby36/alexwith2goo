@@ -1,0 +1,223 @@
+﻿<!--
+   ___      ____                      
+ /'___`\   /\  _`\                    
+/\_\ /\ \  \ \ \L\_\    ___     ___   
+\/_/// /__  \ \ \L_L   / __`\  / __`\ 
+   // /_\ \  \ \ \/, \/\ \L\ \/\ \L\ \
+  /\______/   \ \____/\ \____/\ \____/
+  \/_____/     \/___/  \/___/  \/___/ 
+    2Goo Development, 2016
+    Just looking under the hood?
+    Visit us at http://2goo.cf/ 
+    for more source code!
+-->
+
+<!DOCTYPE html>
+<style>
+html {
+    background-color: orange;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#header {
+    font-family: "Lucida Console";
+    color: orange;
+    position: fixed;
+    background-color: white;
+    width: 1150px;
+    transition: 1s;
+}
+#header:hover {
+    background: linear-gradient(to right, white, orange);
+    color: red;
+}
+#toptext {
+    font-family: Arial;
+    margin-top: 100px;
+}
+.product {
+    font-family: Arial;
+
+}
+.productimage {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.productimage:hover {
+    border-style: double;
+    border-width: 20px;
+    border-color: red;
+}
+.scrollbutton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: hidden;
+    transition: 1s;
+}
+.scrollbutton:hover {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: solid dashed;
+    background-color: red;
+    -webkit-transform: rotate(360deg);
+}
+.minihead {
+    font-family: 'Lucida Console';
+}
+.productshowcase {
+    font-family: Arial;
+}
+.perbutton {
+    border-radius: 10px;
+    border-style: hidden;
+}
+hr:hover {
+    color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+</style>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Alex with 2Goo</title>
+</head>
+<body>
+    
+    <div id="header"><h1 style="margin-left: 100px">Alex with 2Goo | C# | HTML | CSS | JS</h1></div>
+
+    <hr />
+
+    <div id="toptext">
+    <h3>Alex Bruce, one of the founders of 2Goo, is skilled in .NET langauges, Web languages, and Scripting languages.</h3>
+    <p>He has worked on 2Goo's biggest projects, such as Bill AI, East Chat, and Monotone.</p>
+    <center><button type="button" onclick="scrolltop()" class="scrollbutton">&darr;</button></center>
+    </div>
+
+    <hr />
+
+    <h2 class="minihead">Products</h2>
+    
+    <div class="product">
+        <img src="https://images-2.discordapp.net/.eJwFwcENwyAMAMBdGADj1kDIMhUiyIkEMQL3VXX33P3Mdzazm1N1rB3guFaRedilMjNXyyLcah7XskU6ZNVczl5vXYDROwrOk0eMEQMleDl6o8MUY9gS-RAI-qcJix03m_8D4ZwiTA.szWEOlovzRtEtQlmKd-kzjh-HBk.png" class="productimage" alt="Product Image" />
+        <h3>Monotone</h3>
+        <p>Monotone is a chatting service that runs on Discord, and is a free and safe place to communticate quickly!</p>
+    </div>
+    <div class="product">
+        <img src="http://www.voidspace.org.uk/python/articles/images/python_console.jpg" class="productimage" alt="Product Image" />
+        <h3>Bill AI</h3>
+        <p>Bill AI is a fun Q&A bot, built with Python. Since its release, it has been also made in Javascript and VB.NET</p>
+    </div>
+    <div class="product">
+        <img src="http://images.clipartpanda.com/cupcake-clip-art-cupcake6.png" class="productimage" alt="Product Image" />
+        <h3>Cupcake 2048 (Chrome Extension)</h3>
+        <p>Built on the 2048 custom engine, it had a very large community of over 1,000 users at its launch.</p>
+    </div>
+    <div class="product">
+        <img src="http://windowsapptutorials.com/wp-content/uploads/2014/08/ip-address.jpg" class="productimage" alt="Product Image" />
+        <h3>IP Finder (Website)</h3>
+        <p>Built like this website, this IP finder gets your public IP, for use in many different things.</p>
+    </div>
+    <center><button type="button" onclick="scrolltwo()" class="scrollbutton">&darr;</button></center>
+
+    <hr />
+
+    <h2 class="minihead">Terminated Products</h2>
+
+    <div class="product">
+        <img src="http://wac.450f.edgecastcdn.net/80450F/wgrd.com/files/2011/09/East-Grand-Rapids-High-School-Logo.jpg" class="productimage" alt="Product Image" />
+        <h3>East Chat</h3>
+        <p>East Chat was a chatting service that ran on Discord. The service was terminated to make way for Monotone, and to widen our audience beyond EGRPS.</p>
+    </div>
+    <div class="product">
+        <iframe src="https://drive.google.com/file/d/0Byrw_rZWb7aPUHVKenNRMnplckE/preview" width="640" height="480" class="productimage"></iframe>
+        <h3>Sedul, By OnTask</h3>
+        <p>Sedul is still operational, but development has been discontinued. Sedul's goal was to support students with computer attention issues in the classroom.</p>
+    </div>
+    
+    <hr />
+
+    <div>
+        <h2 class="minihead">About Alex</h2>
+        <p style="font-family: Arial">Alex Bruce is a software developer, based in Grand Rapids, Michigan. He has been coding since he was ten. He co-founded 2Goo about a year ago, after working for some time on OnTask, the parent company of 2Goo. He is skilled in HTML, CSS, JavaScript, Python, and C#.NET. In 2016, he won third place in the State of Michigan in a Python Programming competition. When he isn't coding, he likes to study video game plot and interface, study aviation, play Cello, and he is also a Fencer at the club in Grand Rapids.</p>
+    </div>
+    
+    <hr />
+
+    <div>
+        <h2 class="minihead">Product Show Case: Monotone</h2>
+        <ul>
+            <li class="productshowcase">Engine: Discord</li>
+            <li class="productshowcase">Server Owner: Nic Carlson, 2Goo</li>
+            <li class="productshowcase">Lead Developers: Nic Carlson, Alex Bruce, 2Goo</li>
+            <li class="productshowcase">UI Design: Discord</li>
+            <li class="productshowcase">Languages Used: HTML, CSS, JS, PHP</li>
+        </ul>
+        <p style="font-family: Arial; font-size: 10px">Discord does not endorse Monotone in anyway, all copyrights and trademarks are owned by there respective owners. We do not claim any ownership of Discord or its affiliates.</p>
+    </div>
+
+    <hr />
+
+    <div id="personalize">
+        <h2 class="minihead">Website Personalization</h2>
+        <button type="button" onclick="swaptheme()" class="perbutton">Swap to Blue Theme</button>
+        <button type="button" onclick="swapthemeorange()" class="perbutton">Swap to Orange Theme</button>
+        <button type="button" onclick="nocorners()" class="perbutton">Turn off Rounded Corners</button>
+    </div>
+
+    <hr />
+
+    <div id="footer">
+        <p style="font-family: Arial">Questions? Comments? <a href="http://alexwith2goo.byethost7.com/2goo2.1.php" id="footlink1">Message me here, with my new PHP form!</a> This website is bound by the legal agreements made by <a href="https://2goosite.weebly.com" id="footlink2">2Goo Development Company.</a></p>
+    </div>
+</body>
+</html>
+<script language="Javascript">
+    document.onload = function () {
+        let theme = localStorage.getItem("theme");
+        if (theme == "orange") {
+            document.documentElement.style.backgroundColor = "orange";
+            document.getElementById("header").style.color = "orange";
+            document.getElementById("footlink1").style.color = "blue";
+            document.getElementById("footlink2").style.color = "blue";
+        }
+        if (theme == "blue") {
+            document.documentElement.style.backgroundColor = "blue";
+            document.getElementById("header").style.color = "blue";
+            document.getElementById("footlink1").style.color = "orange";
+            document.getElementById("footlink2").style.color = "orange";
+        }
+        else {
+            console.log("No theme was set.");
+        }
+    };
+    function scrolltop() {
+        window.scrollBy(0, 150);
+    }
+    function scrolltwo() {
+        window.scrollBy(0, 625);
+    }
+    function swaptheme() {
+        document.documentElement.style.backgroundColor = "blue";
+        document.getElementById("header").style.color = "blue";
+        document.getElementById("footlink1").style.color = "orange";
+        document.getElementById("footlink2").style.color = "orange";
+        localStorage.setItem("theme", "blue");
+    }
+    function swapthemeorange() {
+        document.documentElement.style.backgroundColor = "orange";
+        document.getElementById("header").style.color = "orange";
+        document.getElementById("footlink1").style.color = "blue";
+        document.getElementById("footlink2").style.color = "blue";
+        localStorage.setItem("theme", "orange");
+    }
+    function nocorners() {
+        alert("This function is being worked on, check for updates!");
+    }
+</script>
