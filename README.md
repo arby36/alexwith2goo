@@ -1,6 +1,10 @@
 # Alex with 2Goo Website
 Official Repo for [alexwith2goo](http://alexwith2goo.x10.mx/)
 
+Version 1.0.0
+
+2.0.1 is coming to open source soon, plus more projects from Aw2!
+
 ***Important Notice:***
 
 In addition to the GNU License in the repository, the following terms apply:
